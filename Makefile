@@ -1,4 +1,8 @@
 
 PYTHON = python3
-venv := .venv
+VENV := .venv
 
+
+install:
+	@$(PYTHON) -m venv $(VENV)
+	@$(PYTHON) 
